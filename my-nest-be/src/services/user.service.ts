@@ -10,4 +10,8 @@ export class UserService {
     createOrUpdate(user: User) {
         this.userRepository.upsert(user);
     }
-}
+
+    updateOBject() {
+        
+    }
+} 
